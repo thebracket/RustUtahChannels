@@ -1,0 +1,28 @@
+[package]
+name = "channel_code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+members = [
+    "channel_free_messaging",
+    "simple_mpsc_channel",
+    "mpsc_enums",
+    "lots_of_producers",
+    "channel_functions",
+    "multi_channel",
+    "send_bench",
+    "send_sync_bench",
+    "channel_latency",
+    "send_bench_kanal",
+    "channel_latency_kanal",
+    "channel_latency_kanal_big",
+    "async_mpsc",
+    "async_mpsc_latency",
+    "fan_out",
+    "mixed_sync_async",
+]

@@ -1,0 +1,12 @@
+[book]
+authors = ["Herbert Wolverson"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Sending Data with Channels"
+
+[output.html.playground]
+runnable = true
+
+[rust]
+edition = "2021"
